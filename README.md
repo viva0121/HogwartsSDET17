@@ -15,6 +15,7 @@ pytest: https://docs.pytest.org/en/stable/getting-started.html
 https://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/python_style_rules/
 
 ## 作业地址
+https://ceshiren.com/t/topic/9879/64
 
 ## 课程内容
 
