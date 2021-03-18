@@ -1,0 +1,43 @@
+add:
+  int:
+    datas:
+      - [ 1,1,2 ]
+      - [ 100,100,200 ]
+      - [ 1,0,1 ]
+      - [ -1,1,0 ]
+    ids: [ 'int','bigint','zero','result0' ]
+  float:
+    datas:
+      - [ 0.1,0.1,0.2 ]
+      - [ 0.1,0.2,0.3 ]
+    ids: [ 'float_normal','float_decimal' ]
+  string:
+    datas:
+      - [ 'abc','def','abcdef' ]
+      - [ 'abc','cde','abccde' ]
+    ids: [ 'different_string','duplicate_string' ]
+
+div:
+  int_normal:
+    datas:
+      - [ 4,2,2 ]
+      - [ 200,100,2 ]
+      - [ 2,4,0.5 ]
+      - [ -4,-2,2 ]
+      - [ -9,3,-3 ]
+      - [ 0,3,0 ]
+    ids: [ 'int','bigint','digital','minus','composition','result0' ]
+
+  int_error:
+    datas:
+      - [ 1,0,1 ]
+      - [ -1,0,1 ]
+      - [ 0,0,1 ]
+    ids:
+  float:
+    datas:
+      - [ 1,3,0.33 ]
+      - [ 2,7,0.29 ]
+      - [ 99.9,3,33.3 ]
+    ids: [ 'float1','float2','float3' ]
+
